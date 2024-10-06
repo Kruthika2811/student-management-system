@@ -1,0 +1,32 @@
+.a{
+background-image: url("https://media.istockphoto.com/id/2140836981/photo/teenage-girls-using-typing-on-laptops.jpg?s=2048x2048&w=is&k=20&c=RLa_SxaJXmuT232HJH_yv5O3r2EaYKNsN40XU0f2_hw=");
+background-size: cover;  /* Cover the entire container */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat; /* No repeat of the background image */
+padding: 20px; /* Add padding to the container */
+box-sizing: border-box; /* Include padding in container's width and height */
+height: 100vh; /* Full viewport height */
+
+}
+
+
+.btnbook{
+   display: inline-block;
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text */
+    color: white; /* Text color */
+    background-color: #ff9293; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.btnbook:hover{
+    background-color: rgb(18, 19, 20);
+}
+
+
+
+

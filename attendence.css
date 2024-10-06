@@ -1,0 +1,77 @@
+.form-container {
+    background-image: url('https://media.gettyimages.com/id/1138142697/photo/back-view-of-a-woman-wants-to-ask-a-question-on-a-seminar.jpg?s=612x612&w=gi&k=20&c=OcKtt7m07mcrQT2JocCKlk4cMikRvB7qjUGliFjJWfo=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* Form styles */
+#bookingForm {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center horizontally */
+    gap: 20px; /* Increase space between elements */
+}
+
+/* Group styles */
+.form-group {
+    text-align: center;
+}
+
+/* Input field styles */
+.form-group input {
+    padding: 15px; /* Increase padding for input fields */
+    border: 1px solid #d8cbef;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; /* Make input fields full width */
+    max-width: 300px; /* Limit max width */
+}
+
+/* Label styles */
+/* Label styles */
+.form-group label {
+    font-size: 20px; /* Increased font size for labels */
+    margin-bottom: 5px; /* Add space below labels */
+    font-weight: bold; /* Make text bold */
+}
+
+
+/* Button styles */
+button {
+    padding: 15px 30px; /* Increase padding for larger button */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px; /* Increase font size */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for Attendance button */
+.btnbook {
+    padding: 10px 20px; /* Adjust padding for the Attendance button */
+    border: none;
+    border-radius: 5px;
+    background-color: #515851; /* Change color for the Attendance button */
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.btnbook:hover {
+    background-color: #9ea7a0; /* Darker color on hover */
+}
+
+.abc{
+    font-size: 40px;
+}
